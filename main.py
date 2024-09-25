@@ -1,5 +1,4 @@
-from digishop import fetch_digimon_data
+from digishop import automate
 
 if __name__ == "__main__":
-    data = fetch_digimon_data(3)
-    print(data)
+    automate(1, 10)
